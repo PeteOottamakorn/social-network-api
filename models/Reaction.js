@@ -35,7 +35,6 @@ const reactionSchema = new Schema(
   {
     // Create virtual called reactionCount to retrive length of the thought's reactions array field on query
     toJSON: {
-      //   virtuals: true,
       getters: true,
     },
     id: false,
