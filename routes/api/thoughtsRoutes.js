@@ -13,7 +13,7 @@ const {
 router.route("/").get(getThoughts);
 
 // /api/thoughts/:userId
-router.route("/:userId").post(createThought);
+router.route("/").post(createThought);
 
 // /api/thoughts/:thoughtId
 router
